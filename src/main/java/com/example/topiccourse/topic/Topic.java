@@ -13,7 +13,8 @@ public class Topic {
     public Topic() {
     }
 
-    public Topic(String name, String desc) {
+    public Topic(int id, String name, String desc) {
+        this.id = id;
         this.name = name;
         this.description = desc;
     }
